@@ -12,6 +12,8 @@ account_City = "New_york"        // Not good way to declare variable
 let account_State;
 
 // account_ID = 2        // not allowed to change because it is constant
+account_pwd = 4444
+account_City = "London"
 
 // Method to print
 console.log(account_ID)
@@ -20,6 +22,7 @@ console.log(account_Email)
 console.log(account_City)
 console.log(account_State)
 
+// Another way to print 
 console.table([account_ID, account_pwd, account_Email, account_City, account_State])
 
 // Multiline comment
