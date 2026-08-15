@@ -34,5 +34,15 @@ console.log("sum = ",sum);
 
 // print 1 to 5
 for (i = 1; i <= 6; i++) {
-    console.log("i = ",i)
+    console.log("i = ",i);
 }
+
+/*
+// infinite loop:
+for (let i = 1; i >= 0; i++)  {
+    console.log("i = ",i);
+}
+
+note: shouldn't run this loop, it may disrupt your system 
+
+*/
